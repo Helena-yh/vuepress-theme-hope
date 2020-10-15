@@ -1,0 +1,41 @@
+{
+  "name": "@mr-hope/vuepress-types",
+  "version": "1.0.0-0",
+  "description": "VuePress TypeScript helpers",
+  "keywords": [
+    "types",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/Mister-Hope/vuepress-theme-hope/packages/vuepress-types#readme",
+  "bugs": {
+    "url": "https://github.com/Mister-Hope/vuepress-theme-hope/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mister-Hope/vuepress-theme-hope.git",
+    "directory": "packages/vuepress-types"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "zhangbowang1998@gmail.com",
+    "url": "https://mrhope.site"
+  },
+  "types": "types/index.d.js",
+  "dependencies": {
+    "@types/express": "4.17.8",
+    "@types/markdown-it": "10.0.2",
+    "@types/markdown-it-anchor": "4.0.4",
+    "@types/webpack-dev-server": "3.11.0",
+    "cac": "6.6.1",
+    "markdown-it": "11.0.1",
+    "vue": "2.6.12",
+    "vue-loader": "15.9.3"
+  },
+  "peerDependencies": {
+    "vuepress": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

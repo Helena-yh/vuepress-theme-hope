@@ -1,0 +1,39 @@
+{
+  "name": "@mr-hope/vuepress-plugin-components",
+  "version": "1.0.0-0",
+  "description": "components plugin for vuepress-theme-hope",
+  "keywords": [
+    "vuepress-plugin",
+    "components",
+    "vuepress",
+    "vuepress-theme-hope",
+    "mr-hope"
+  ],
+  "homepage": "https://github.com/Mister-Hope/vuepress-theme-hope/packages/components#readme",
+  "bugs": {
+    "url": "https://github.com/Mister-Hope/vuepress-theme-hope/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mister-Hope/vuepress-theme-hope.git",
+    "directory": "packages/components"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "zhangbowang1998@gmail.com",
+    "url": "https://mrhope.site"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@mr-hope/vuepress-shared-utils": "^1.0.0-0",
+    "@mr-hope/vuepress-types": "^1.0.0-0",
+    "@types/lodash.debounce": "^4.0.6",
+    "lodash.debounce": "^4.0.8",
+    "screenfull": "5.0.2",
+    "vue-router": "^3.4.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
